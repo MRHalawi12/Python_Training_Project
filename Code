@@ -16,9 +16,9 @@ i = 1
 total_pengeluaran = 0
 while i<= jumlah_hari:
 if i % 2 == 0:
-total_pengeluaran += (kendaraan_genap * uang_jalan)
+    total_pengeluaran += (kendaraan_genap * uang_jalan)
 else:
-total_pengeluaran += (kendaraan_ganjil * uang_jalan)
-i += 1
+    total_pengeluaran += (kendaraan_ganjil * uang_jalan)
+    i += 1
 # Cetak total pengeluaran
 print(total_pengeluaran)
